@@ -54,27 +54,27 @@ spring:
         - id: order
           uri: http://order:8080
           predicates:
-            - Path=/orders/** 
+            - Path=/orders/**, /order/**
         - id: payment
           uri: http://payment:8080
           predicates:
-            - Path=/payments/** 
+            - Path=/payments/**, /payment/**
         - id: station
           uri: http://station:8080
           predicates:
-            - Path=/managements/** 
+            - Path=/managements/**, management/**
         - id: mountpart
           uri: http://mountpart:8080
           predicates:
-            - Path=/mountParts/** 
+            - Path=/mountparts/**, /mountpart/**
         - id: stock
           uri: http://stock:8080
           predicates:
-            - Path=/stocks/** 
+            - Path=/stocks/**, /stock/**
         - id: dashboard
           uri: http://dashboard:8080
           predicates:
-            - Path= /dashBoards/**
+            - Path= /dashBoards/**, /dashBoard/**
       globalcors:
         corsConfigurations:
           '[/**]':
