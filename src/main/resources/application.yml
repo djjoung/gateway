@@ -74,7 +74,7 @@ spring:
         - id: dashboard
           uri: http://dashboard:8080
           predicates:
-            - Path= /dashBoards/**, /dashBoard/**
+            - Path= /dashboards/**, /dashboard/**
       globalcors:
         corsConfigurations:
           '[/**]':
