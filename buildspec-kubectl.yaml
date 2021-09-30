@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    _PROJECT_NAME: "chargingstation-gateway"
+    _PROJECT_NAME: "user16-chargingstation-gateway"
     _POD_NAME: "gateway" # low case character
 
 phases:
